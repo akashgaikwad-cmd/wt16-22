@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        
+        .content {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .col-md-6 {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="background1.mp4" type="video/mp4">
+    </video>
+
+    <div class="container content">
+        <header class="text-center mb-5">
+            <h1>Piyush Ghadge</h1>
+            <p>Software Developer</p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section">
+                    <h2>Education</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Bachelor of Technology in Computer Science</h5>
+                            <p>VIT University, 2023-2026</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>JavaScript, React, Node.js</li>
+                        <li>Python, Java, Spring Boot</li>
+                        <li>HTML5, CSS3, Bootstrap</li>
+                        <li>MySQL, MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="section">
+                    <h2>Work Experience</h2>
+                    <div class="mb-4">
+                        <h5>Software Developer Intern</h5>
+                        <p>Rebert Technologies pvt. ltd., Summer 2022</p>
+                        <ul>
+                            <li>Developed responsive websites for 2 clients</li>
+                            <li>Collaborated with senior developers</li>
+                            <li>Implemented new features using html, css and js</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>
+                            <h5>Efficient Clip-Gan</h5>
+                            <p>Deep learning model to generate images from text prompt</p>
+                        </li>
+                        <li>
+                            <h5>Nowcasting of Precipitation</h5>
+                            <p>Nowcast the rainfall using C-band doppler radar data</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center mt-5">
+            <p>Contact: piyush.ghadge@email.com | Phone: 8180951397</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search and Sort Demo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Search and Sort Demo</h1>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h3>Integer Array</h3>
+        <input type="text" id="integerInput" class="form-control" placeholder="Enter integer">
+        <select id="integerList" class="form-select w-100 mt-2"></select>
+        <button id="addInteger" class="btn btn-primary mt-2">Add</button>
+        <button id="sortInteger" class="btn btn-primary mt-2">Sort</button>
+        <button id="searchInteger" class="btn btn-secondary mt-2">Search</button>
+        <input type="text" id="integerSearchInput" class="form-control mt-2" placeholder="Enter integer to search">
+        <div id="integerResult" class="mt-3"></div>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Named Entities Array</h3>
+        <input type="text" id="entityInput" class="form-control" placeholder="Enter name">
+        <select id="entityList" class="form-select w-100 mt-2"></select>
+        <button id="addEntity" class="btn btn-primary mt-2">Add</button>
+        <button id="sortEntity" class="btn btn-primary mt-2">Sort</button>
+        <button id="searchEntity" class="btn btn-secondary mt-2">Search</button>
+        <input type="text" id="entitySearchInput" class="form-control mt-2" placeholder="Enter name to search">
+        <div id="entityResult" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
